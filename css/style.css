@@ -1,0 +1,141 @@
+/* global setting/config */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  /* global styling */
+  html,
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5em;
+    /* 1em = 2inches */
+  }
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  h1,
+  h2,
+  h3 {
+    padding-bottom: 20px;
+  }
+  p{
+    margin: 10px;
+  }
+   
+  /* header */
+  .container {
+    margin: auto;
+    max-width: 960px;
+    overflow: auto;
+    padding: 0 60px;
+   
+  }
+  /* navgiation */
+  #navbar {
+    background: #082032;
+    color: #fff;
+    overflow: auto;
+  }
+  #navbar a {
+    color: #fff;
+  }
+  #navbar ul {
+    list-style: none;
+    float: right;
+  }
+  #navbar ul li {
+    float: left;
+  }
+  #navbar ul li a {
+    display: block;
+    padding: 20px;
+  }
+   
+  /* logo */
+  #navbar h1 {
+    float: left;
+    padding-top: 20px;
+  }
+  /* menu */
+  #navbar ul li a:hover {
+    background: #334756;
+    color: #ff4c29;
+  }
+  #navbar ul li a.active{
+    background: rgba(255, 255, 255, 0.1);
+  }
+  #hero {
+      background: url("/image/244098018_424610195750419_7988451941666883432_n.jpg") 
+      no-repeat center/cover;
+      height: 600px;
+    
+    }
+   #hero .hero-content {
+       color: #fff;
+       text-align: center;
+       padding-top: 170px;
+ }
+    .primary-text{
+       color: #f0f0cb
+ }
+    #hero .hero-content h1{
+        font-size: 60px;
+        line-height: 1.2em;
+    }
+   #hero .hero-content p {
+        padding-bottom: 20px;
+        line-height: 1.7em;  
+    }
+    .text-lead{
+      font-size: 20px;
+    }
+    .btn{
+        display: inline-block;
+        font-size: 18px;
+        color: #fff;
+        background: #334756;
+        padding: 13px 20px;
+        border: none;
+        cursor: pointer; 
+    }
+    #about {
+      height: 480px;
+    }
+    #about p {
+      line-height: 2em;
+    }
+ 
+    #about h2{
+      color: #ffb740;
+    }
+  #about i {
+    margin-bottom: 10px;
+  }
+  #about p {
+    line-height: 2em;
+    font-size:15px;
+  }
+  #about .content-1,
+  #about .content-2,
+  #about .content-3{
+    float: left;
+    width: 33%;
+    overflow:hidden;
+    text-align: center;
+    padding-top: 20px;
+  }
+  #about a.c-btn {
+    color: #082032;
+  }
+  #about a.c-btn:hover{
+    color: #ffb740;
+  }
+  
+
+
+
+   
+    
