@@ -68,7 +68,7 @@
     background: rgba(255, 255, 255, 0.1);
   }
   #hero {
-      background: url("/image/244098018_424610195750419_7988451941666883432_n.jpg") 
+      background: url("image/244098018_424610195750419_7988451941666883432_n.jpg") 
       no-repeat center/cover;
       height: 600px;
     
